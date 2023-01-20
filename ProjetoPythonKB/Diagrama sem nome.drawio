@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T14:34:18.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="gdrwknIf85F4luOmbqqG" type="github"><diagram id="YKnSeQyXfQYR3gUtQ4a5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-20T14:48:23.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="Q6XSAQIAROzU3PodQjLH" type="github">
+  <diagram id="HB3tD9yMSWwXWPu6Mqnb" name="Página-1">
+    <mxGraphModel dx="677" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4adj82tTuQm2GllREpJ7-3" value="filepath_or_buffer&lt;br style=&quot;font-size: 14px;&quot;&gt;sep&lt;br style=&quot;font-size: 14px;&quot;&gt;encoding" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;strokeColor=default;opacity=20;fontStyle=1;fontSize=14;align=left;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="100" y="148" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4adj82tTuQm2GllREpJ7-4" value="&lt;h1 style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;pd.read_csv()&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="20" y="105" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4adj82tTuQm2GllREpJ7-5" value="&lt;h1 style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 16px;&quot;&gt;Data Importing&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="65" y="78" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4adj82tTuQm2GllREpJ7-6" value="&lt;b&gt;filepath_or_buffer &lt;/b&gt;- arquivo que estará sendo importado&lt;br&gt;&lt;b&gt;sep &lt;/b&gt;- delimitador de coluna&lt;br&gt;&lt;b&gt;encoding &lt;/b&gt;- códificação dos dados" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="330" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
