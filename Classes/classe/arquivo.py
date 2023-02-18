@@ -8,7 +8,8 @@ class DataFrame:
                     , header
                     , numeroColunas
                     , nomeColunas
-                    , parametro):
+                    , parametro
+                    , sheet_name):
         
         self.arquivo = arquivo
         self.sep = separador
@@ -17,6 +18,7 @@ class DataFrame:
         self.numeroColunas = numeroColunas
         self.nomeColunas = nomeColunas        
         self.parametro = parametro 
+        self.sheet_name = sheet_name
     pass
 
     def carregaArquivoCSV(self):
@@ -58,5 +60,12 @@ class DataFrame:
     
     
     def carregaArquivoEXCEL(self):
+        
+        df = pd.read_excel(self.arquivo
+                           ,sheet_name=self.sheet_name)
+        
+        
         print('Em Desenvolvimento')
+        
+        return df
         
