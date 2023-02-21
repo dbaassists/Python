@@ -10,7 +10,9 @@ class Grafico:
                     , tituloGrafico
                     , descricaoEixoX
                     , descricaoEixoY
-                    , variacao):
+                    , variacao
+                    , descritivo
+                    , quantidade):
             
         self.baseDados = baseDados
         self.eixo_x = eixo_x
@@ -19,9 +21,11 @@ class Grafico:
         self.descricaoEixoX = descricaoEixoX
         self.descricaoEixoY = descricaoEixoY
         self.variacao = variacao
+        self.descritivo = descritivo
+        self.quantidade = quantidade
     pass
     
-    def geraGrafico(self):        
+    def geraGraficoBarra(self):        
         #criando a fig e o ax no matplotlib
         fig, ax = plt.subplots(figsize=(13,6))
 
@@ -72,3 +76,20 @@ class Grafico:
 
         #plotando o gráfico
         return plt.tight_layout();
+
+    
+    
+    def geraGraficoPizza(self):
+        
+        fig, ax = plt.subplots(figsize=(15,5))
+
+        # Data to be represented
+        descritivo = self.descritivo
+        quantidade = self.quantidade
+
+        # Plotting the pie chart
+        plt.title(self.tituloGrafico,
+        fontsize = 20)
+        plt.pie(quantidade, labels=descritivo, autopct=lambda x: '{:.0f}'.format(x*quantidade.sum()/100))
+        plt.axis('equal')
+        plt.show()
